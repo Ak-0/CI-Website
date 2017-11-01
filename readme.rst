@@ -1,3 +1,6 @@
+Project demo available at : <a href="http://gray.codeinside.net">Live Site</a>.
+
+
 ###################
 What is CodeIgniter
 ###################
