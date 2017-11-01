@@ -1,4 +1,4 @@
-Project demo available at : http://gray.codeinside.net
+Project demo available at : http:/code-gray.psychos.is
 
 
 ###################
