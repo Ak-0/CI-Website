@@ -1,3 +1,6 @@
+Project demo available at : http:/code-gray.psychos.is
+
+
 ###################
 What is CodeIgniter
 ###################
