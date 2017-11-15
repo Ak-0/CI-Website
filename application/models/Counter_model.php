@@ -25,11 +25,11 @@ class Counter_model extends CI_Model {
 		return $CNTR;
 		}
 		 
-	 function update_counter($ip) {
-		$CNTR = $this->get_counter();    
-		$query = $this->db->simple_query(' INSERT INTO count (counter,ip) VALUES('.$CNTR.',"'.$ip.'") ');
+	 function update_counter($ip,$host,$uname) {
+		$CNTR = $this->get_counter()+1;    
+		$query = $this->db->simple_query(' INSERT INTO count (counter,ip,hostn,uname) VALUES('.$CNTR.',"'.$ip.'","'.$host.'","'.$uname.'") ');
 		if($query){
-		$this->db->simple_query('UPDATE count SET counter = ('.$CNTR.' +1)');		}
   	    return $CNTR;
+				}
 		} 
 }
