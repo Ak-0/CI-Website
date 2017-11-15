@@ -19,10 +19,8 @@ class Counter_model extends CI_Model {
 		else{return FALSE;}
 	 }
 	function get_counter(){
-		$query = $this->db->query('SELECT counter FROM count LIMIT 1');
-		$result = $query->row();
-		$CNTR = $result->counter;		
-		return $CNTR;
+		$query = $this->db->select('counter')->order_by('counter','desc')->limit(1)->get('count')->row('counter');
+		return $query;
 		}
 		 
 	 function update_counter($ip,$host,$uname) {
