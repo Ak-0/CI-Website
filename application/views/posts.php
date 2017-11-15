@@ -17,8 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $updates = json_decode (json_encode ($commits), FALSE);
 foreach($updates as $commit)
 {
-	echo(date('M-d',strtotime($commit->commit->author->date)));
-	if(isset($commit->author)){	echo('<p>'.$commit->author->login.' ');}
+	echo(date('M-d',strtotime($commit->commit->author->date)).'<p>');
+	if(isset($commit->author)){	echo($commit->author->login.' ');}
 	echo(' <a href ="'.$commit->html_url.'">'.$commit->commit->message.'</a></p>');
 }
 
