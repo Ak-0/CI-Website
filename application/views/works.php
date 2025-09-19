@@ -5,21 +5,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Primary Page Layout -->
   
 		<h5>Skills</h5>
-		I am a Linux user, and professional for the last 17 years.<br>Currently hold the Linux+ , Novell/SUSE CLA , and LPIC-1.<p><div class="seven columns" id="works"><li class="worx"><div class="desc_image three columns">
+		I am a Linux user, and professional for the last 17 years.<br>Currently hold the Linux+ , Novell/SUSE CLA , and LPIC-1.<p>
+			<div class="seven columns" id="works">
+				<li class="worx"><div class="desc_image three columns">
 		<img class="works" src="imgs/linux.png" alt="Linux">Linux</div>
 		<div class="desx"><div class="arrow_box"></div>
 		<ul>
 		<li>
-			Remote server installations. 
-		</li>
-		<li>
-			DNS And SSL Setups.
-		</li>
-		<li>
-			Setups of Apache LAMP stack servers.
-		</li>
-		<li>
-			Cron Jobs, Bash Scripts.
+			DNS, SSH, SQL, Web, VPN, Email, servers. <br>
+			Apache LAMP stack.<br>
+			Cron Jobs, Bash Scripts, PHP, Python, Perl.
 		</li>		
 		
 		</ul>
@@ -28,19 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="desx"><div class="arrow_box"></div>
 		<ul>
 		<li>
-			Versed in various distributions. 
-		</li>
-		<li>
-			Debian,
-		</li>
-		<li>
-			SUSE,
-		</li>
-		<li>
-			Fedora,</li>
-			<li>CentOS and Other RH Based Distros.
-		</li>		
-		
+			Well versed in various distributions.<br>
+			Debian, SUSE, Ubuntu, Arch Linux, Kali Linux,<br>
+			Fedora, CentOS, and Other Distros.</li>		
 		</ul>
 		</div>
 		</li>
@@ -48,13 +33,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="desx six"><div class="arrow_box"></div>
 		<ul>
 		<li>
-			CompTIA - Linux+,
-		</li>
-		<li>
-			SUSE Linux Admin Certification,
-		</li>
-		<li>
-			LPI - LPIC1 Certified.
+			- CompTIA Linux+, <br>
+			- LPI - LPIC1 Certified,<br>
+			- SUSE Linux Admin Certification,<br>
+			- College Oracle Database SQL course,<br>
+			- Oracle Database PL/SQL.<br>
+			- CompTIA A+, Sheridan Technical Institute Computer Tech Certificate.
 		</li>
 				
 		</ul>
@@ -64,22 +48,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		As an experienced Back-end PHP developer. I enjoy writing PHP Scripts that interface the database system as well as working with custom OOP PHP Frameworks.
 Currently applying the following PHP MVC Frameworks and Methodologies.
 		<p><div class="seven columns" id="works">
-		<li class="worx"><div class="desc_image three columns"><img class="works"  src="imgs/github.png">Dev Apps</div>
+		<li class="worx"><div class="desc_image three columns"><img class="works"  src="imgs/composer.png">Dev Apps</div>
 		<div class="desx"><div class="arrow_box"></div>
 		 <ul>
-		 <li>I use Composer to install frameworks, start projects, and dependencies.</li>
-		 <li> Vagrant boxes for virtualization and quick setup of development environments.</li>
-		 <li> PHP Storm and Notepad++ for development. </li>
-		 <li>PHPUnit for testing</li>
-		 <li>Git for Version control and team projects.</li></ul>
+		 <li>I use Composer to install frameworks, start projects, and dependencies.<br>
+		  Vagrant boxes for quick setup of development environments.<br>
+		  PHP Storm and Notepad++ for development, PHPUnit for testing<br>
+		 Git for Version control and team projects.</ul>
 		</div>
 		</li>
 		<li class="worx"><div class="desc_image three columns"><img class="works" src="imgs/code-i.png" alt="Code Igniter PHP Framework">Code Igniter</div>
 		<div class="desx"><div class="arrow_box"></div>
 		<ul>
-			<li> Object Oriented PHP is my preference for backend coding and scripting;
-			<li> Code-igniter is light weight enough for small projects;
-			<li> This site uses Code-igniter framework with PHP7, CSS3, and HTML5.
+			<li> Object Oriented PHP is my preference for backend coding and scripting;<br>
+			 Code-igniter is light weight enough for small projects;<br>
+			 This site uses Code-igniter framework with PHP5.6, CSS3, and HTML5.<br>
 			</ul>
 		</div>
 		</li>
@@ -87,10 +70,9 @@ Currently applying the following PHP MVC Frameworks and Methodologies.
 		<li class="worx"><div class="desc_image three columns"><img class="works" src="imgs/laravel.png" alt="Laravel PHP Framework">Laravel</div>
 		<div class="desx"><div class="arrow_box"></div>
 				<ul>
-				<li>For Developing powerful full-featured Web-Applications with:</li>
-								<li>Forum;</li>
-				<li>Blog;</li>
-				<li>REST API.</li>
+				<li>For Developing powerful full-featured Web-Applications with:<br>
+					Admin Panel, DataTables, Bootstrap, JQuery, NodeJS, REST APIs
+				</li>
 				
 				</ul>
 		</div>

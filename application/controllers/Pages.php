@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Pages extends CI_Controller {
-public function view($page = 'works')
+public function view($page = 'about')
 {		
         if ( ! file_exists(APPPATH.'views/'.$page.'.php'))
         {
@@ -11,10 +11,12 @@ public function view($page = 'works')
         }
 		
         $this->load->helper(array('form','url','cookie'));
-        $this->load->library(array('session','form_validation', 'email'));
-        
-        $data['title'] = ucfirst($page); // Capitalize the first letter
+        if($page == 'contact'){
+			$this->load->library(array('session','form_validation', 'email'));
 
+	}
+	
+        $data['title'] = ucfirst($page); // Capitalize the first letter
 		$data['page_title'] = 'Gray-Code';
         $this->load->view('templates/header', $data);
 		$this->load->view('templates/nav', $data);

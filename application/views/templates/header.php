@@ -11,7 +11,7 @@ of my skillset. And some projects in my portfolio.">
   <meta name="keywords" content="Linux, Gray_code, Gray Code">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
-
+<link rel="stylesheet" href="/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
@@ -23,6 +23,6 @@ of my skillset. And some projects in my portfolio.">
 
 
 <div id="heading"><a href='#'>
-  gray-code</a>
+  Ak-0 @ gray-code</a>
   </div>
 <div id=body>

@@ -10,27 +10,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             
 <p>
 <div class="main six columns"><li>
-I can assist you in converting Excel files to database App.<br>
+I can assist you in PHP development, Linux System Admin, or Database tasks..<br>
 <li>
-From simple contact form to any Web app development.<br>
+From simple to intermediate development.<br>
 <li>
 Just fill out this form and I will get back to you soon.
 </div>
 <style>
+
+
 @media screen and (max-width: 1000px) {
 	fieldset{
 		float: none !important;
 		margin-top: 10% !important;
 		
 		}
-	
-	
+	input, textarea, form{
+		width: 100%;
+	}
+
 	}
 </style>
 			
 			<div class="two columns">
 			<?php $attributes = array("class" => "form-horizontal", "name" => "contact");
-            echo form_open("../../contact/submit", $attributes);?>
+            echo form_open("http://".base_url()."contact/submit", $attributes);?>
 			<fieldset>
 			<div class="form-group">
                 <div >
@@ -43,8 +47,9 @@ Just fill out this form and I will get back to you soon.
 
                 <div >
 					                    <?php 
-                    echo form_dropdown('subject', //$subject_opts,
-			 'other');
+					                    $attributes = ['style'=>'width: 100%;'];
+					                    $subjects = ['other'=>'other','excel'=>'excel','blog'=> 'blog' ,'csv'=>'csv', 'DB'=>'DB Import/Export'];
+                    echo form_dropdown('subject', $subjects,'other' , $attributes);
                     ?>
                     <span class="text-danger"><?php echo form_error('subject'); ?></span>
                 </div>
@@ -73,8 +78,14 @@ Just fill out this form and I will get back to you soon.
                 </div>
             </div>
             </fieldset>
-            <?php echo form_close(); ?>
-            <?php echo $this->session->flashdata('msg'); ?>
+            <?php echo form_close(); 
+ 			if ($this->session->flashdata('error')){
+				echo $this->session->flashdata('error');
+				}
+ 			else if ($this->session->flashdata('success')){
+				echo $this->session->flashdata('success');
+				}
+             ?>
 </div>
 </div>
 <!-- End Document -->
